@@ -40,7 +40,7 @@ const Dashboard = () => {
             <div className="hero-img wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
               <div className="img-border"  style={{"border":"none"}}>
                 <img src="images/tj.jpg" alt className="img-fluid" style={{"width": "100%","height": "530px",
-    "background-position": "200px", "image-rendering": "-webkit-optimize-contrast"}}/>
+                 "background-position": "200px", "image-rendering": "-webkit-optimize-contrast"}}/>
               </div>
             </div>
           </div>
@@ -94,7 +94,7 @@ const Dashboard = () => {
         </div>
         <div className="col-sm-12 col-md-6">
         <div className="mh-about-img shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
-            <img src="images/tj.png" alt className="img-fluid" style={{ "marginTop": "-160px", "image-rendering": "-webkit-optimize-contrast"}} />
+            <img src="images/img.png" alt className="img-fluid" style={{ "marginTop": "100px", "image-rendering": "-webkit-optimize-contrast"}} />
           </div>
        
         </div>
@@ -398,6 +398,36 @@ const Dashboard = () => {
                     <p>JD Recycling is an environment and human caring company that specializes in converting Vehicles’ Used TIRES to furniture, interior decor and playground items.
                       This site was built with WordPress,PHP,HTML,CSS</p>
                     <a href="http://www.jdrecycling17.com/" className="last" style={{width: '50%'}}>Visit Website</a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="carousel-item">
+                <div className="row">
+                  <div className="col-md-7 col-sm-12" style={{marginTop: '10%'}}>
+                    <div className="md-macbook-pro md-glare ">
+                      <div className="md-lid">
+                        <div className="md-camera " />
+                        <div className="md-screen ">
+                          {/* content goes here */}                
+                          <div className="tab-featured-image ">
+                            <div className="tab-content">
+                              <div className="tab-pane  in active" id="tab1">
+                                <img src="images/water.jpg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-5 col-sm-12" style={{marginTop: '10%'}}>
+                    <h6 className="wb" style={{marginTop: '20%'}}>WEB DESIGN</h6>
+                    <h1>INFINITY WATER</h1>
+                    <h6>WEB DESIGN</h6>
+                    <p>Infinity water is a mineral with 8.8ph level which is an exclusive luxury premium brand that will be filtered and purified 7 times as against the normal five times before bottled.
+                      This site was built with WordPress,PHP,HTML,CSS</p>
+                    <a href="http://www.infinitywater.com.ng/" className="last" style={{width: '50%'}}>Visit Website</a>
                   </div>
                 </div>
               </div>
