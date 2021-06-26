@@ -39,8 +39,12 @@ const Dashboard = () => {
           <div className="col-sm-6">
             <div className="hero-img wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
               <div className="img-border"  style={{"border":"none"}}>
-                <img src="images/tj.jpg" alt className="img-fluid" style={{"width": "100%","height": "530px",
-                 "background-position": "200px", "image-rendering": "-webkit-optimize-contrast"}}/>
+                <img src="images/tj.jpg" alt className="img-fluid" style={{"height": "400px",
+    "background": "black",
+    "width": "400px",
+    "object-fit": "contain",
+    "background-position": "10px 10px"
+    "background-size": "100px"; "image-rendering": "-webkit-optimize-contrast"}}/>
               </div>
             </div>
           </div>
