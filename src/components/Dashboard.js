@@ -43,8 +43,8 @@ const Dashboard = () => {
     "background": "black",
     "width": "400px",
     "object-fit": "contain",
-    "background-position": "10px 10px"
-    "background-size": "100px"; "image-rendering": "-webkit-optimize-contrast"}}/>
+    "background-position": "10px 10px",
+    "background-size": "100px", "image-rendering": "-webkit-optimize-contrast"}}/>
               </div>
             </div>
           </div>
